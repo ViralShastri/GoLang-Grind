@@ -8,6 +8,7 @@ type Person struct {
 }
 
 func changeMe(person *Person) {
+	// (*person).name = "Shastri"
 	person.name = "Shastri"
 }
 
